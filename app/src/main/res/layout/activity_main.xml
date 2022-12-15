@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:visibility="visible"
+    app:layout_wrapBehaviorInParent="included"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/gSignInBtn"
+        android:layout_width="260dp"
+        android:layout_height="58dp"
+        android:text="Sign in with Google"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#74C6BF"
+        app:barrierMargin="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Sign in to allow backup \n and synchronization \n of your groups."
+        android:textAlignment="center"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="By Continuing You are indicating that you \n accept out Terms &amp; Conditions "
+        android:textAlignment="center"
+        android:textSize="15dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="108dp"
+        android:src="@drawable/logo"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="59dp"
+        android:src="@drawable/glogo"
+        app:flow_wrapMode="chain2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
